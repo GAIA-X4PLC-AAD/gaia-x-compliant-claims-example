@@ -10,7 +10,8 @@ http://www.eclipse.org/legal/epl-v20.html
 Contributors:
 - msg systems AG - initial documentation
 
-====================================
+========================================
+
 Eclipse Public License - v 2.0
 
     THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS ECLIPSE
