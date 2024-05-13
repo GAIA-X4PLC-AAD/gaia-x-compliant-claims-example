@@ -1,1 +1,1 @@
-# gaia-x-complaint-claims-example
+# gaia-x-compliant-claims-example
