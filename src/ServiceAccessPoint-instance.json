@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "gx": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+    "sh": "http://www.w3.org/ns/shacl#"
+  },
+  "@id": "https://www.msg.group/serviceaccesspoint",
+  "@type": "gx:ServiceAccessPoint",
+  "gx:name": {
+    "@value": "msg edc",
+    "@type": "xsd:string"
+  },
+  "gx:host": {
+    "@value": "msg.group/edc",
+    "@type": "xsd:string"
+  },
+  "gx:protocol": {
+    "@value": "https",
+    "@type": "xsd:string"
+  },
+  "gx:version": {
+    "@value": "1.0",
+    "@type": "xsd:string"
+  },
+  "gx:port": {
+    "@value": "443",
+    "@type": "xsd:string"
+  },
+  "gx:openAPI": {
+    "@value": "https://www.msg.group/serviceaccesspoint/openapi",
+    "@type": "xsd:string"
+  }
+}

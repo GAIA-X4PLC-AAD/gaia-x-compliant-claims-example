@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "gx": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "sh": "http://www.w3.org/ns/shacl#"
+  },
+  "@id": "https://www.msg.group/dataresource",
+  "@type": "gx:DataResource",
+  "gx:copyrightOwnedBy": "https://participant.gxfs.gx4fm.org/.well-known/legalParticipant.json",
+  "gx:license": "Apache-2.0",
+  "gx:obsoleteDateTime": {
+    "@value": "2024-04-26T12:37:03",
+    "@type": "xsd:dateTime"
+  },
+  "gx:exposedThrough": {
+    "@id": "https://www.msg.group/serviceoffering"
+  },
+  "gx:expirationDateTime": {
+    "@value": "2024-09-19T17:45:10",
+    "@type": "xsd:dateTime"
+  },
+  "gx:containsPII": false,
+  "gx:policy": {
+    "@value": "package access_control  default allow = false  allow {     input.method == \"GET\"     input.path == \"/public\" }  allow {     input.method == \"POST\"     input.path == \"/private\"     input.user.role == \"admin\" }",
+    "@type": "xsd:string"
+  },
+  "gx:producedBy": {
+    "@id": "https://participant.gxfs.gx4fm.org/.well-known/legalParticipant.json"
+  },
+  "gx:name": {
+    "@value": "Data Resource Name",
+    "@type": "xsd:string"
+  },
+  "gx:description": {
+    "@value": "This could be the description of a data resource.",
+    "@type": "xsd:string"
+  }
+}

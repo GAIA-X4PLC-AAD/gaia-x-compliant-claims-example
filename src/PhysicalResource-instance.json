@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "gx": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "sh": "http://www.w3.org/ns/shacl#"
+  },
+  "@id": "https://www.msg.group/physicalresource",
+  "@type": "gx:PhysicalResource",
+  "gx:maintainedBy": {
+    "@id": "https://participant.gxfs.gx4fm.org/.well-known/legalParticipant.json"
+  },
+  "gx:ownedBy": {
+    "@id": "https://participant.gxfs.gx4fm.org/.well-known/legalParticipant.json"
+  },
+  "gx:manufacturedBy": {
+    "@id": "https://participant.gxfs.gx4fm.org/.well-known/legalParticipant.json"
+  },
+  "gx:location": {
+    "@value": "DE",
+    "@type": "xsd:string"
+  },
+  "gx:name": {
+    "@value": "msg PhysicalResource",
+    "@type": "xsd:string"
+  },
+  "gx:description": {
+    "@value": "This could be used to even further describe the physical resource.",
+    "@type": "xsd:string"
+  }
+}
