@@ -51,7 +51,7 @@
     },
     "gx:containsPII": false,
     "gx:policy": {
-      "@value": "package access_control  default allow = false  allow {     input.method == \"GET\"     input.path == \"/public\" }  allow {     input.method == \"POST\"     input.path == \"/private\"     input.user.role == \"admin\" }",
+      "@value": "package access_control  default allow = false  allow {     input.method == \\\"GET\\\"     input.path == \\\"/public\\\" }  allow {     input.method == \\\"POST\\\"     input.path == \\\"/private\\\"     input.user.role == \\\"admin\\\" }",
       "@type": "xsd:string"
     },
     "gx:producedBy": {
