@@ -41,29 +41,10 @@ The claims provided as an example could look different. In some cases the [Gaia-
 
 Example:
 ```
-{
-    "sh:description": "A list of copyright owners either as a free form string or as resolvable link to Gaia-X Credential of participants. A copyright owner is a person or organization that has the right to exploit the resource. Copyright owner does not necessarily refer to the author of the resource, who is a natural person and may differ from copyright owner.",
-    "sh:minCount": 1,
-    "sh:name": "copyright owned by",
-    "sh:or": {
-        "@list": [
-            {
-                "sh:class": {
-                    "@id": "gx:LegalParticipant"
-                }
-            },
-            {
-                "sh:datatype": {
-                    "@id": "xsd:string"
-                }
-            }
-        ]
-    },
-    "sh:order": 0,
-    "sh:path": {
-        "@id": "gx:copyrightOwnedBy"
-    }
-}
+[ 
+    sh:name "copyright owned by" ;
+    sh:or ( [ sh:class gx:LegalParticipant ] [ sh:datatype xsd:string ] ) ;
+],
 ```
 This means that one can link a list of `LegalParticipant` class to this object **or** just provide a simple strings.
 
