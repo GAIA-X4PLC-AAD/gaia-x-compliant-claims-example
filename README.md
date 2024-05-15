@@ -56,8 +56,8 @@ The example claims can only show one of the possibilities. Please refer to the [
 There are some problems resulting of the current version of the  [Gaia-X Trust Framework Model 2210](https://registry.lab.gaia-x.eu/v1/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#):
 
 - The relation `exposedThrough` is currently not modelled correctly. `exposedThrough` should point to the data exchange component as written in the specification. This will be fixed in the next version of the Gaia-X Trust Framework. `exposedThrough` will then link to the data exchange component and the relationship between `ServiceOffering` and the `Resource` will be replaced by `aggregationOf`.
+- There is a similar issue in the `ServiceOfferingShape`. The relation `providedBy` is modelled as sh:node which means that we cannot link an existing participant by its ID. We expect hat this will be changed in future so a participant can be linked like in `DataResourceShape.producedBy` property with `sh:class` and `sh:nodeKind sh:IRI`.
 - Regarding InstantiatedVirtualResource, the `hostedOn` and `instanceOf` attributes are not modelled as sh:nodeKind sh:IRI as it can be seen in the other attributes like `maintainedBy`, `manufacturedBy` and `ownedBy`. For that reason we cannot use an IRI and link existing nodes but we need to embed the `PhyicalResource` and the `DataResource` directly into the `InstantiatedVirtualResource`. See `InstanciatedVirtualResource-instance_adapted.json` for an example.
-- TODO RS: describe problem with policies. Bug in FC???????
 
 These problems should be fixed in the next version of the Gaia-X Trust Framework.
 
