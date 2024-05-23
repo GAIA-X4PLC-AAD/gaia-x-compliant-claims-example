@@ -15,12 +15,12 @@ There are already prepared participant credentials that can be used by project p
 All three credentials must be sent to the Compliance Service along with the other credentials encapsulating the claims to get a positive response.
 
 The prepared credentials are located here:
-- https://participant.gxfs.gx4fm.org/<projectPartner>/legalParticipant.json
-- https://participant.gxfs.gx4fm.org/<projectPartner>/legalRegistration.json
-- https://participant.gxfs.gx4fm.org/<projectPartner>/termsAndConditions.json
+- https://participant.gxfs.gx4fm.org/{projectPartner}/legalParticipant.json
+- https://participant.gxfs.gx4fm.org/{projectPartner}/legalRegistration.json
+- https://participant.gxfs.gx4fm.org/{projectPartner}/termsAndConditions.json
 
 
-where `<projectPartner>` is the one of the names of the project partner in following list:
+where `{projectPartner}` is the one of the names of the project partner in following list:
 - 3dmapping
 - ascs
 - bmw
