@@ -25,6 +25,7 @@ where `{projectPartner}` is the one of the names of the project partner in follo
 - ascs
 - bmw
 - continental
+- dlr
 - gx4fm-plcaad
 - infineon
 - ivi.fraunhofer
