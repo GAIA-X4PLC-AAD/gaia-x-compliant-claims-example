@@ -49,7 +49,6 @@ Example:
 This means that one can link a list of `LegalParticipant` class to this object **or** just provide a simple strings.
 
 The example claims can only show one of the possibilities. Please refer to the [Gaia-X Trust Framework Model 2210](https://registry.lab.gaia-x.eu/v1/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#) for more details. 
-
 ---
 
 ###Hints
