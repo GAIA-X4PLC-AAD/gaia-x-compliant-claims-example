@@ -54,7 +54,7 @@ The example claims can only show one of the possibilities. Please refer to the [
 
 ###Hints
 
-Links to the legalParticipant Credentials must always reference to the id of the legalParticipant and NOT the did of the issuer. Don't get confused by the "wrong " error of the Compliance Service that "Service and participant issuers must match". The issue is already mentioned [here](https://gitlab.com/gaia-x/lab/compliance/gx-compliance/-/issues/69).
+Links to the legalParticipant Credentials must always reference to the id of the legalParticipant and NOT the did of the issuer. Don't get confused by the "wrong " error of the Compliance Service that "Service and participant issuers must match". The issue is already mentioned [here](https://gitlab.com/gaia-x/lab/compliance/gx-compliance/-/issues/69). 
 
 ---
 
