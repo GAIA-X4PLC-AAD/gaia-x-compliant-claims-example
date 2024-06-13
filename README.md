@@ -49,6 +49,11 @@ Example:
 This means that one can link a list of `LegalParticipant` class to this object **or** just provide a simple strings.
 
 The example claims can only show one of the possibilities. Please refer to the [Gaia-X Trust Framework Model 2210](https://registry.lab.gaia-x.eu/v1/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#) for more details. 
+---
+
+###Hints
+
+Links to the legalParticipant Credentials must always reference to the id of the legalParticipant and NOT the did of the issuer. Don't get confused by the "wrong " error of the Compliance Service that "Service and participant issuers must match". The issue is already mentioned [here](https://gitlab.com/gaia-x/lab/compliance/gx-compliance/-/issues/69). 
 
 ---
 
