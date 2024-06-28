@@ -2,38 +2,37 @@
   "@context": {
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "gx": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "sh": "http://www.w3.org/ns/shacl#"
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   },
-  "@id": "https://www.msg.group/dataresource",
+  "@id": "https://www.gaia-x4plcaad.info/claims/data-resource/46a1daa4-d7f6-4844-bf70-55675bdb23b3",
   "@type": "gx:DataResource",
-  "gx:copyrightOwnedBy": "https://participant.gxfs.gx4fm.org/.well-known/legalParticipant.json",
+  "gx:copyrightOwnedBy": "https://participant.gxfs.gx4fm.org/msg-systems-ag/legalParticipant.json",
   "gx:license": "Apache-2.0",
   "gx:obsoleteDateTime": {
-    "@value": "2024-04-26T12:37:03",
+    "@value": "2025-03-28T12:29:44",
     "@type": "xsd:dateTime"
   },
   "gx:exposedThrough": {
-    "@id": "https://www.msg.group/serviceoffering"
+    "id": "https://www.gaia-x4plcaad.info/claims/service-offering/46a1daa4-d7f6-4844-bf70-55675bdb23b3"
   },
   "gx:expirationDateTime": {
-    "@value": "2024-09-19T17:45:10",
+    "@value": "2025-03-28T12:29:44",
     "@type": "xsd:dateTime"
   },
   "gx:containsPII": false,
   "gx:policy": {
-    "@value": "package access_control  default allow = false  allow {     input.method == \\\"GET\\\"     input.path == \\\"/public\\\" }  allow {     input.method == \\\"POST\\\"     input.path == \\\"/private\\\"     input.user.role == \\\"admin\\\" }",
+    "@value": "package access_control  default allow = false  allow {     input.method == \"GET\"     input.path == \"/public\" }  allow {     input.method == \"POST\"     input.path == \"/private\"     input.user.role == \"admin\" }",
     "@type": "xsd:string"
   },
   "gx:producedBy": {
-    "@id": "https://participant.gxfs.gx4fm.org/.well-known/legalParticipant.json"
+    "id": "https://participant.gxfs.gx4fm.org/msg-systems-ag/legalParticipant.json"
   },
   "gx:name": {
-    "@value": "Data Resource Name",
+    "@value": "Generated Data Resource",
     "@type": "xsd:string"
   },
   "gx:description": {
-    "@value": "This could be the description of a data resource.",
+    "@value": "Generated description.",
     "@type": "xsd:string"
   }
 }

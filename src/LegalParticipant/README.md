@@ -1,16 +1,18 @@
 # Information for LegalParticipant
 
-## Files
-- The LegalParticipant-instance_20.10-conform.json is a version that is **not accepted** by the Compliance Service but relates to the LegalParticipantShape.
-- The LegalParticipant-instance_compliance-service-conform.json is a version that is **accepted** by the Compliance Service but does not relate to the LegalParticipantShape.
+## General
+The LegalParticipant-instance.json an example how claims can look like for a LegalParticipant.
 
-The reason for this is currently not clear and has to be analysed.
+> Note: As a provider of meta-data it is not required to create an instance of the LegalParticipant for every offering since the LegalParticipant needs to be onboarded in the Federated Catalogue. 
+> What the data provider needs are the three participant credentials (`LegalParticipant`, `LegalRegistrationNumber`, `TermsAndConditions`) that are sent to the Compliance Service along with the other credentials (see below). The ID of the LegalParticipant is then referenced in the other credentials.
+
+> Note: This is an example that is **accepted** by the Compliance Service. But it does not relate to the LegalParticipantShape.
 
 ## Prepared Participant credentials 
 There are already prepared participant credentials that can be used by project partners. There are credentials for:
-- LegalParticipant (based on LegalParticipant-instance_compliance-service-conform.json)
-- LegalRegistrationNumber
-- TermsAndConditions
+- `LegalParticipant` (based on `LegalParticipant-instance.json`)
+- `LegalRegistrationNumber`
+- `TermsAndConditions`
 
 All three credentials must be sent to the Compliance Service along with the other credentials encapsulating the claims to get a positive response.
 
@@ -18,6 +20,9 @@ The prepared credentials are located here:
 - https://participant.gxfs.gx4fm.org/{projectPartner}/legalParticipant.json
 - https://participant.gxfs.gx4fm.org/{projectPartner}/legalRegistration.json
 - https://participant.gxfs.gx4fm.org/{projectPartner}/termsAndConditions.json
+
+In addition to that there is also a prepared did for each project partner here:
+- https://participant.gxfs.gx4fm.org/{projectPartner}/did.json
 
 
 where `{projectPartner}` is the one of the names of the project partner in following list:
