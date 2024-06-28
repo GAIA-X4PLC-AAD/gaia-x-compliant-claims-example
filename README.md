@@ -31,7 +31,7 @@ The `PhysicalResource` describes the infrastructure where the Resource is hosted
 The [Model](#model) defines the classes and their dependencies needed to create a metadata description of the service or data to be offered. 
 
 'Claims' means the instantiation of the model into a concrete instance representing the metadata. 
-In Gaia-X these claims are encapsulated into a [W3C VerifiableCredential](https://www.w3.org/TR/vc-data-model/) and a [W3C VerifiablePresentation](https://www.w3.org/TR/vc-data-model/) both having a proof (signature). Those VerifiablePresentations can be sent to the [federated catalogue](https://gitlab.eclipse.org/eclipse/xfsc/cat/fc-service) which is responsible for storing that meta data description and making it discoverable.
+In Gaia-X these claims are encapsulated into a [W3C VerifiableCredential](https://www.w3.org/TR/vc-data-model/) and a [W3C VerifiablePresentation](https://www.w3.org/TR/vc-data-model/) both having a proof (signature). Those VerifiablePresentations can be sent to the [federated catalogue](https://gitlab.eclipse.org/eclipse/xfsc/cat/fc-service) which is responsible for storing that meta-data description and making it discoverable.
 
 The `src` directory contains an example for claims for the specific classes mentioned above. You can find more details in the respective claim files in the `src` directory.
 

@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "gx": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  },
+  "@id": "https://www.gaia-x4plcaad.info/claims/virtual-resource/46a1daa4-d7f6-4844-bf70-55675bdb23b3",
+  "@type": "gx:InstantiatedVirtualResource",
+  "gx:maintainedBy": {
+    "id": "https://participant.gxfs.gx4fm.org/msg-systems-ag/legalParticipant.json"
+  },
+  "gx:hostedOn": {
+    "id": "https://www.gaia-x4plcaad.info/claims/physical-resource/46a1daa4-d7f6-4844-bf70-55675bdb23b3"
+  },
+  "gx:instanceOf": {
+    "id": "https://www.gaia-x4plcaad.info/claims/data-resource/46a1daa4-d7f6-4844-bf70-55675bdb23b3"
+  },
+  "gx:tenantOwnedBy": {
+    "id": "https://participant.gxfs.gx4fm.org/msg-systems-ag/legalParticipant.json"
+  },
+  "gx:serviceAccessPoint": {
+    "id": "https://www.gaia-x4plcaad.info/claims/service-access-point/46a1daa4-d7f6-4844-bf70-55675bdb23b3"
+  }
+}

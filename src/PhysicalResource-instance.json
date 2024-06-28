@@ -2,30 +2,29 @@
   "@context": {
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "gx": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "sh": "http://www.w3.org/ns/shacl#"
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   },
-  "@id": "https://www.msg.group/physicalresource",
+  "@id": "https://www.gaia-x4plcaad.info/claims/physical-resource/46a1daa4-d7f6-4844-bf70-55675bdb23b3",
   "@type": "gx:PhysicalResource",
   "gx:maintainedBy": {
-    "@id": "https://participant.gxfs.gx4fm.org/.well-known/legalParticipant.json"
+    "id": "https://participant.gxfs.gx4fm.org/msg-systems-ag/legalParticipant.json"
   },
   "gx:ownedBy": {
-    "@id": "https://participant.gxfs.gx4fm.org/.well-known/legalParticipant.json"
+    "id": "https://participant.gxfs.gx4fm.org/msg-systems-ag/legalParticipant.json"
   },
   "gx:manufacturedBy": {
-    "@id": "https://participant.gxfs.gx4fm.org/.well-known/legalParticipant.json"
+    "id": "https://participant.gxfs.gx4fm.org/msg-systems-ag/legalParticipant.json"
   },
   "gx:location": {
     "@value": "DE",
     "@type": "xsd:string"
   },
   "gx:name": {
-    "@value": "msg PhysicalResource",
+    "@value": "Generated PhysicalResource",
     "@type": "xsd:string"
   },
   "gx:description": {
-    "@value": "This could be used to even further describe the physical resource.",
+    "@value": "Generated PhysicalResource Description.",
     "@type": "xsd:string"
   }
 }
