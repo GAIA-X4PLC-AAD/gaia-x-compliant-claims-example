@@ -36,6 +36,7 @@ In Gaia-X these claims are encapsulated into a [W3C VerifiableCredential](https:
 The `src` directory contains an example for claims for the specific classes mentioned above. You can find more details in the respective claim files in the `src` directory.
 
 ---
+
 **Note:** 
 The claims provided as an example could look different. In some cases the [Gaia-X Trust Framework Model 2210](https://registry.lab.gaia-x.eu/v1/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#) allows different approaches to describe the data, e. g. with `sh:or`. 
 
@@ -49,11 +50,13 @@ Example:
 This means that one can link a list of `LegalParticipant` class to this object **or** just provide a simple strings.
 
 The example claims can only show one of the possibilities. Please refer to the [Gaia-X Trust Framework Model 2210](https://registry.lab.gaia-x.eu/v1/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#) for more details. 
+
 ---
 
-###Hints
+### Hints
 
-Links to the legalParticipant Credentials must always reference to the id of the legalParticipant and NOT the did of the issuer. Don't get confused by the "wrong " error of the Compliance Service that "Service and participant issuers must match". The issue is already mentioned [here](https://gitlab.com/gaia-x/lab/compliance/gx-compliance/-/issues/69). 
+- Links to the legalParticipant Credentials must always reference to the id of the legalParticipant and NOT the did of the issuer. Don't get confused by the "wrong " error of the Compliance Service that "Service and participant issuers must match". The issue is already mentioned [here](https://gitlab.com/gaia-x/lab/compliance/gx-compliance/-/issues/69).
+- The ID of the sublcass of a gaia-x class (marked as `domain specific` in the picture above **must** have the same ID as the gaia-x superclass. This is necessary to make the claims discoverable in the [federated catalogue](https://gitlab.eclipse.org/eclipse/xfsc/cat/fc-service). 
 
 ---
 
