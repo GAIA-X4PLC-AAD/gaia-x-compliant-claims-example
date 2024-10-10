@@ -9,6 +9,11 @@ The Gaia-X Trust Framework consists of several classes and their attributes. The
 ### Overview of basic classes and their attributes
 ![Classes and Attributes](docs/classes-and-attributes.drawio.png)
 
+---
+**Notes:**
+- Please note that `ServiceAccesPoint`.`name` should have the value of the `participant-id` configured in the EDC.
+---
+
 ### Model
 The following diagrams provide a visual representation of the classes and how they are linked together.
 

@@ -6,11 +6,11 @@
   "@id": "https://www.gaia-x4plcaad.info/claims/service-access-point/46a1daa4-d7f6-4844-bf70-55675bdb23b3",
   "@type": "gx:ServiceAccessPoint",
   "gx:name": {
-    "@value": "Provider EDC",
+    "@value": "edc_pr",
     "@type": "xsd:string"
   },
   "gx:host": {
-    "@value": "edcdb-pr.gxfs.gx4fm.org/",
+    "@value": "edc-pr.gxfs.gx4fm.org",
     "@type": "xsd:string"
   },
   "gx:protocol": {
